@@ -5,3 +5,7 @@ venv/
 .env
 .git/
 .vscode/
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
