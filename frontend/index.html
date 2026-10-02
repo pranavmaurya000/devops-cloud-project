@@ -66,8 +66,8 @@ async function checkBackend() {
 
     try {
 
-        const response = await fetch("http://localhost:5000/health");
-
+        const response = await fetch("/api/health");
+        
         const data = await response.json();
 
         result.innerHTML =
